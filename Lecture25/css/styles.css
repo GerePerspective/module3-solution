@@ -1,0 +1,146 @@
+body{
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #ffffff;
+	font-family: 'Oxygen', sans-serif;
+}
+/**Header**/
+#header-nav{
+	background-color: #AAAAAA;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+    height: 80px;
+}
+
+.navbar-brand h1 { /* SITE name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list {
+  background-color: #ffffff;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  font-size: 25px;
+}
+#nav-list a:hover {
+  background:#AAAAAA;
+}
+.row{
+	width: 98%;
+	margin: 10px;
+	box-sizing: border-box;
+}
+h1{
+  color: #000000;
+  margin-top: auto;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  font-size: 35px;
+}
+p{
+  font-family: 'Lora', serif;
+  color: #000000;
+  padding: 10px;
+  font-size: 20px;
+}
+h2{
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  
+}
+.col-md-4, .col-sm-6, .col-sm-12, .col-xs-12{
+	width: 31%;
+	background-color: #AAAAAA;
+	margin: 1%;
+	position: relative;
+	float: left;
+	margin-left: 12px;
+}
+
+@media (min-width: 1200px) {
+.col-md-4, .col-sm-6, .col-sm-12, .col-xs-12{
+	margin-left: 16px;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .col-md-4, .col-sm-6, .col-sm-12, .col-xs-12{
+	margin-left: 13px;
+}
+ }
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ .col-md-4, .col-sm-6, .col-xs-12{
+  	width: 47%;
+  }
+  .col-sm-12{
+  	width: 96.5%;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+   .col-md-4, .col-sm-6, .col-sm-12, .col-xs-12{
+  	width: 99%;
+  	margin-left: 0px;
+  	padding-left: 10px;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+   /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  .navbar-header button.navbar-toggle {
+  	margin-top: -65px;
+  }
+
+}
